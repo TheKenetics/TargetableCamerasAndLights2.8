@@ -34,4 +34,4 @@ Camera > Add Target to Selected Cameras
 or  
 Light > Add Target to Selected Lights  
 
-A target empty will be created and all selected cameras/lights will target it.
+A target empty will be created at the 3D Cursor and all selected cameras/lights will target it.

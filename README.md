@@ -29,9 +29,6 @@ A camera or light will be created at the 3D cursor, and the target empty will be
 ### Making existing Cameras/Lights Targetable
 Select all the existing cameras/lights you would like to make targetable.  
 
-Open the Add Object menu, and go to:  
-Camera > Add Target to Selected Cameras  
-or  
-Light > Add Target to Selected Lights  
+Open the Add Object menu, and click Add Target to Selected Cameras/Lights  
 
 A target empty will be created at the 3D Cursor and all selected cameras/lights will target it.

@@ -101,7 +101,7 @@ class TCL_OT_add_target_camera(bpy.types.Operator):
 		target.location = target_loc
 		
 		# Set Target as camera dof target
-		cam_data.dof_object = target
+		cam_data.dof.focus_object = target
 		
 		deselect_all_objects(context)
 		cam_obj.select_set(True)
@@ -258,7 +258,7 @@ class TCL_OT_add_target_to_cameras_lights(bpy.types.Operator):
 				track_constraint.target = target
 			
 			if self.set_camera_dof_target and obj.type == "CAMERA":
-				obj.data.dof_object = target
+				obj.data.dof.focus_object = target
 		
 		return {'FINISHED'}
 	
